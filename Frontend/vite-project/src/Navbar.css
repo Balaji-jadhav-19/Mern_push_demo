@@ -1,0 +1,53 @@
+/* Navbar container */
+.nav-con {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 14px 40px;
+  background: linear-gradient(90deg, #1e1e1e, #3b2f2f);
+  color: white;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+/* Logo */
+.nav-logo {
+  font-size: 22px;
+  font-weight: bold;
+  cursor: pointer;
+  color: #f59e0b;
+}
+
+/* Links container */
+.nav-links {
+  display: flex;
+  gap: 20px;
+}
+
+/* Common button style */
+.nav-links button {
+  background: none;
+  border: none;
+  color: white;
+  font-size: 15px;
+  cursor: pointer;
+  padding: 6px 12px;
+  transition: all 0.3s ease;
+}
+
+/* Hover effect */
+.nav-links button:hover {
+  color: #f59e0b;
+}
+
+/* Register special button */
+.register-btn {
+  background-color: #f59e0b;
+  color: black !important;
+  border-radius: 6px;
+  font-weight: bold;
+}
+
+.register-btn:hover {
+  background-color: #d97706;
+  color: white !important;
+}

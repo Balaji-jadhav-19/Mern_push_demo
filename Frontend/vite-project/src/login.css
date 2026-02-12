@@ -1,0 +1,85 @@
+/* Full screen center */
+.login-container {
+  height: 100vh;
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Card */
+.login-card {
+  background: #ffffff;
+  padding: 30px 35px;
+  width: 350px;
+  border-radius: 12px;
+  box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.2);
+}
+
+/* Title */
+.login-title {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* Form */
+.login-form {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Input */
+.input-group {
+  margin-bottom: 15px;
+}
+
+.login-input {
+  width: 100%;
+  padding: 10px 12px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+}
+
+.login-input:focus {
+  outline: none;
+  border-color: #667eea;
+}
+
+/* Button */
+.login-btn {
+  background: #667eea;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+.login-btn:hover {
+  background: #5a67d8;
+}
+
+/* Register text */
+.register-text {
+  margin-top: 15px;
+  text-align: center;
+  font-size: 14px;
+}
+
+/* Register button */
+.register-btn {
+  background: none;
+  border: none;
+  color: #667eea;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.register-btn:hover {
+  text-decoration: underline;
+}
